@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_graph"
+            app:startDestination="@id/cartesListFragment">
+
+    <fragment
+            android:id="@+id/cartesListFragment"
+            android:name="cstjean.mobile.cartefidelite.CartesListFragment"
+            android:label="CartesListFragment"
+            tools:layout="@layout/fragment_cartes_list">
+
+        <action
+                android:id="@+id/show_carte_detail"
+                app:destination="@id/carteFragment"/>
+    </fragment>
+    <fragment
+            android:id="@+id/carteFragment"
+            android:name="cstjean.mobile.cartefidelite.CarteFragment"
+            android:label="fragment_carte"
+            tools:layout="@layout/fragment_carte">
+        <argument
+        android:name="carteId"
+        app:argType="java.util.UUID"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Carte Fidelite</string>
+    <string name="carte_nom_commerce_hint">Entrez le nom du commerce de la carte</string>
+    <string name="carte_nom_commerce">Commerce</string>
+    <string name="carte_numero_hint">Entrez le numéro de la carte</string>
+    <string name="carte_numero">Numéro</string>
+    <string name="carte_type_commerce">Type Commerce</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="ajouter_carte">Ajouter Carte</string>
+
+    <string name="lorem_ipsum">
+        ALLO
+    </string>
+</resources>

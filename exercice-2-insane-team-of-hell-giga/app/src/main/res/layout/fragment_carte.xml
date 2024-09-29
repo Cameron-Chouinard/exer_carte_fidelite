@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".CarteFragment"
+              android:orientation="vertical"
+              android:layout_margin="16dp">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/carte_nom_commerce"
+              android:id="@+id/nom_Commerce"
+    />
+
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/carte_nom_commerce_hint"
+              android:id="@+id/carte_nom"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/carte_numero"
+                android:id="@+id/numéro_carte"
+    />
+    <Button
+            android:id="@+id/carte_type_commerce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <ImageView
+            android:id="@+id/barcodeImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+</LinearLayout>
